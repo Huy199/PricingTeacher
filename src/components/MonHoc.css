@@ -1,0 +1,149 @@
+.subject {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 0;
+  top: 0;
+
+  background: #ffffff;
+  /* 8 dp • Dark shadow */
+
+  box-shadow: 0px 8px 8px rgba(38, 50, 56, 0.12),
+    0px 16px 24px rgba(38, 50, 56, 0.08);
+  border-radius: 40px;
+  overflow: hidden;
+}
+.subject-retangle {
+  /* Rectangle 27 */
+
+  position: absolute;
+  width: 321px;
+  height: 190px;
+  left: 0px;
+  top: 0px;
+
+  background: #496999;
+}
+.content-header {
+  display: flex;
+  margin: 48px;
+  justify-content: space-between;
+}
+.content-header div {
+  width: 89px;
+  height: 94px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+
+  text-align: start;
+}
+.subject-name {
+  position: absolute;
+  width: 174px;
+  height: 41px;
+  left: 31px;
+  top: 220px;
+
+  /* 32 sp • H4 Heading */
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.5px;
+
+  color: #000000;
+}
+.teacher {
+  position: absolute;
+  width: 178px;
+  height: 32px;
+  left: 31px;
+  top: 261px;
+
+  /* 18 sp • Paragraph Default */
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  display: flex;
+  align-items: flex-end;
+}
+.icon {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 240px;
+  top: 230px;
+}
+.icon-bg {
+  position: absolute;
+  left: 1px;
+  right: 5px;
+  top: 3px;
+  bottom: 1px;
+
+  background: #496999;
+  border-radius: 15.4839px;
+  transform: rotate(-45deg);
+
+  z-index: 1;
+}
+.icon svg {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  z-index: 4;
+}
+
+.Dialy10 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 120px;
+  top: 0px;
+}
+.SinhHoc9 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 120px;
+  top: 360px;
+}
+.TinHoc11 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 480px;
+  top: 200px;
+}
+.DaiSo8 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 484px;
+  top: 565px;
+}
+.HoaHoc12 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 840px;
+  top: 400px;
+}
